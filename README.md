@@ -19,7 +19,6 @@
 
 ```
 git clone https://github.com/your-username/xiao_scanning.git
-cd xiao_scanning
 ```
 
 1. 安装依赖
@@ -33,19 +32,19 @@ go mod tidy
 ### 1. 显示帮助信息
 
 ```
-go run main.go -h
+go run xiaoscan.go -h
 ```
 
 ### 2. 扫描单个URL
 
 ```
-go run main.go -u "http://example.com"
+go run xiaoscan.go -u "http://example.com"
 ```
 
 ### 3. 扫描多个URL（空格分隔）
 
 ```
-go run main.go -u "http://example.com http://another-example.com"
+go run xiaoscan.go -u "http://example.com http://another-example.com"
 ```
 
 ### 4. 扫描URL列表文件
@@ -60,7 +59,7 @@ http://another-example.com
 然后使用以下命令扫描：
 
 ```
-go run main.go -U "urls.txt"
+go run xiaoscan.go -U "urls.txt"
 ```
 
 ## 输出示例
