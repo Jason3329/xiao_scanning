@@ -26,7 +26,7 @@ __  ___  __ _  ___  ___  ___ __ _ _ __
  >  <| | (_| | (_) \__ \ (_| (_| | | | |
 /_/\_\_|\__,_|\___/|___/\___\__,_|_| |_| 
                                             Auth0r:xiao`,
-		`阿晓水洞专用qwq`,
+		`https://github.com/Jason3329/xiao_scanning`,
 	}
 	rand.Seed(time.Now().Unix()) // Seed the random number generator
 	randIndex := rand.Intn(len(banners)) // Generate a random index
